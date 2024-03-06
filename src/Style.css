@@ -1,0 +1,63 @@
+.Top-Box{
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 65px; /* This is the height of the box, image will change accoring to this*/
+    color: white;
+
+}
+
+.Top-Image{
+    height: 100%;
+    padding-right: 16px;
+}
+
+.Top-Title{
+    font-size: 1.25rem;
+    
+}
+
+
+.Top-React{
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 0.75rem;
+
+}
+
+.main{
+    padding: 36px
+}
+
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr; /*2 40px rows and divide colums with fractions untis*/
+    gap: 17px;
+}
+
+
+.B-Text ,.T-Text{
+    border-radius: 12px;
+    border: 1px solid #d5d4d8;
+    text-indent: 5px;
+}
+
+
+.Generate{
+    grid-column: 1/-1; /* grid column goes from beginning to end*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 7px;
+    border: none;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+.meme--image{
+    max-width: 70%;
+}
+
+
+
